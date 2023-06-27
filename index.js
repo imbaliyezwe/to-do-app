@@ -56,7 +56,7 @@ function DisplayTodos () {
 		if (todo.category == 'personal') {
 			span.classList.add('personal');
 		} else {
-			span.classList.add('business');
+			span.classList.add('school');
 		}
 		content.classList.add('todo-content');
 		actions.classList.add('actions');
